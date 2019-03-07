@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiberante-configuration>
+<session-factory>
+<property name="hibernate.dialect">org.hibernate.dialect.derbydialect</property>
+<property name="hibernate.connection.driver-class">org.h2.driver</property>
+<property name="hibernate.connection.url"></property>
+<property name="hibernate.connection.username">gayathri</property>
+<property name="hibernate.connection.password">gayathri</property>
+<property name="hbm.2ddl.auto"></property>
+<mapping resource="product.hbm.xml"></mapping>
+</session-factory>
+</hiberante-configuration>
